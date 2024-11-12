@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.nav_style {
+    width: 100%;
+    background-color: #1B2227;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_style .default_class {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav_style .active_class {
+    color: lightblue;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}

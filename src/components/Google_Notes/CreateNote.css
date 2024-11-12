@@ -1,0 +1,58 @@
+.main_note {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+.main_note form{
+    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.4);
+    width: 25%;
+    padding: 15px 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.main_note input{
+    padding: 5px 0;
+    border: 0;
+    width: 100%;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "josefin Sans", sans-serif;
+}
+
+.main_note textarea {
+    border: 0;
+    width: 100%;
+    margin: 15px 0 50px 0;
+    outline: 0;
+    font-size: 14px;
+    font-family: "josefin Sans", sans-serif;
+}
+
+.main_note .countWords {
+    /* position: absolute;
+    right: 30px;
+    bottom: 50px; */
+    font-family: "josefin Sans", sans-serif;
+}
+
+.main_note .btnAdd {
+    position: absolute;
+    right: 5px;
+    bottom: -17px;
+    background-color: white;
+    color: cornflowerblue;
+    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.4);
+    transition: 0.5s ease;
+}
+
+.main_note .btnAdd:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.main_note .plus_sign {
+    font-size: 25px;
+}
